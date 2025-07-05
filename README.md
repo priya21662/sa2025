@@ -1,12 +1,12 @@
- Parking Lots Dynamic Pricing System
+# 📌 Parking Lots Dynamic Pricing System
 
- Overview
+## 🚗 Overview
 
 This project implements a **dynamic pricing model** for parking lots using a combination of **demand forecasting** and **competitive pricing** strategies. It is designed to optimize revenue by adjusting prices based on time-based demand, occupancy, and competitor influence.
 
 ---
 
-Tech Stack
+## 🧰 Tech Stack
 
 | Category       | Tools/Tech Used                     |
 |----------------|-------------------------------------|
@@ -19,7 +19,7 @@ Tech Stack
 
 ---
 
-Architecture Diagram (Mermaid)
+## 🏗️ Architecture Diagram (Mermaid)
 
 ```mermaid
 graph TD
@@ -29,6 +29,7 @@ graph TD
     D[Competitor Price Feed] --> E[Competitor Adjustment Model]
     E --> F
     F --> G[Frontend/Display or Dashboard]
+
 
 
 Project Workflow
