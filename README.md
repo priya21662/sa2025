@@ -21,7 +21,7 @@ This project implements a **dynamic pricing model** for parking lots using a com
 
 ## 🏗️ Architecture Diagram (Mermaid)
 
-```mermaid
+```` ```mermaid ````
 graph TD
     A[Raw Data Streams] -->|Time, Occupancy, Events| B[Demand Score Calculator]
     B --> C[Demand-Based Pricing Model]
